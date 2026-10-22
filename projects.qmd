@@ -2,22 +2,45 @@
 title: "Projects"
 ---
 
-[Communicative & social complexity](#complexity) · [Evolution of grasping abilities](#grasping) · [Self-medication?](#selfmedication) · [Releasable collar](#collar)
+[Social worms](#socialworms) · [Communicative & social complexity](#complexity) · [Evolution of grasping abilities](#grasping) · [Self-medication?](#selfmedication) · [Releasable collar](#collar)
+
+::: {.project-card .no-image #socialworms}
+
+::: {}
+## SOcial WORMs
+
+#### An experimental approach to the social puzzle across sexual systems
+
+[January 2026 – present]{.project-meta}
+
+**Laboratoire d'Ethologie Expérimentale et Comparée (LEEC)**, Université Sorbonne Paris Nord
+Funded by the « Appel à Projets de la Commission de la recherche USPN » (10k€)
+:::
+:::
 
 ::: {.project-card #complexity}
 ![](images/complexity.jpg){fig-alt="Lemurs"}
 
 ::: {}
-## Communicative complexity in primates
+## Communicative complexity
 
 #### Sociality and multimodal communication in two lemur species
 
 [PhD Project · November 2015 –]{.project-meta}
 
-**Deutsches Primatenzentrum** (German Primate Center), Göttingen  
+**Deutsches Primatenzentrum** (German Primate Center), Göttingen
 Funded by the Deutsche Forschungsgemeinschaft (DFG)
 
 Related: [Peckre et al. 2018](https://doi.org/10.1007/s00265-018-2605-4) · [Peckre et al. 2022](https://doi.org/10.1038/s41598-022-08861-2) · [Peckre et al. 2025](https://doi.org/10.1016/j.anbehav.2025.123163) · [PhD dissertation](https://ediss.uni-goettingen.de/handle/21.11130/00-1735-0000-0008-57D0-B)
+
+::: {.project-sub}
+#### COCONET: Combining Comparative Network approaches to explore multimodal communication in zebras and beyond
+
+[January 2027 –]{.project-meta}
+
+**Laboratoire d'Ethologie Expérimentale et Comparée (LEEC)**, Université Sorbonne Paris Nord
+In collaboration with Séverine Hex (Harvard University) and the Réserve Africaine de Sigean
+:::
 :::
 :::
 
@@ -27,7 +50,7 @@ Related: [Peckre et al. 2018](https://doi.org/10.1007/s00265-018-2605-4) · [Pec
 ::: {}
 ## The evolution of grasping abilities in Strepsirrhines
 
-[Master Project · January 2015 –]{.project-meta}
+[Master Project · January 2015 – 2023]{.project-meta}
 
 **Muséum National d'Histoire Naturelle**, Paris (CNRS), in collaboration with the Duke Lemur Center
 
@@ -59,7 +82,7 @@ Related: [Peckre et al. 2018](https://doi.org/10.1007/s10329-018-0674-7) · [Out
 
 #### An affordable technology to avoid multiple captures
 
-[Side Project · 2015 –]{.project-meta}
+[Side Project · 2015]{.project-meta}
 
 **Deutsches Primatenzentrum**, Göttingen
 

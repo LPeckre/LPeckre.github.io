@@ -57,11 +57,23 @@ title: "Collaborators"
       <a href="https://www.linkedin.com/in/julienhambuckers/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
     </div></div>
 
+  <div><div class="collab-initials">SH</div>
+    <div class="collab-name">Dr. Séverine HEX</div>
+    <div class="collab-links">
+      <a href="https://scholar.google.com/citations?user=U6XWVcYAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+    </div></div>
+
   <div><img src="images/collaborators/kappeler.jpg" alt="Peter Kappeler">
     <div class="collab-name">Pr. Peter KAPPELER</div>
     <div class="collab-links">
       <a href="https://www.researchgate.net/profile/Peter-Kappeler" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
       <a href="https://scholar.google.com/citations?user=GAcL5ewAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+    </div></div>
+
+  <div><div class="collab-initials">CL</div>
+    <div class="collab-name">Cristina M. LORENZI</div>
+    <div class="collab-links">
+      <a href="https://scholar.google.com/citations?user=mLi941wAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     </div></div>
 
   <div><img src="images/collaborators/lowie.jpg" alt="Aurélien Lowie">

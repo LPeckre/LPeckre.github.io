@@ -14,7 +14,6 @@ $headings-color: #1f3a4d;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #1f3a4d;
-  min-height: 170px;
   display: flex;
   align-items: center;
   position: relative;
@@ -27,7 +26,7 @@ $headings-color: #1f3a4d;
 .site-banner-text {
   position: relative;
   color: #fff;
-  padding: 1.5rem 2rem;
+  padding: .75rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
@@ -35,6 +34,9 @@ $headings-color: #1f3a4d;
 .banner-name { font-family: "Raleway", sans-serif; font-size: 2rem; font-weight: 700; }
 .banner-role { font-size: 1.15rem; font-weight: 400; }
 .banner-lab  { font-size: .95rem; font-weight: 300; opacity: .9; }
+
+/* Space between the blue header block and the page content */
+#quarto-content { padding-top: 2.5rem; }
 
 /* Home */
 .keywords { font-style: italic; color: $primary; }
@@ -52,6 +54,8 @@ $headings-color: #1f3a4d;
 }
 .project-card img { width: 100%; border-radius: 6px; }
 .project-meta { color: #666; font-size: .95rem; }
+.project-card.no-image { grid-template-columns: 1fr; }
+.project-sub { margin-top: 1.5rem; padding-left: 1rem; border-left: 3px solid $primary; }
 @media (max-width: 768px) { .project-card { grid-template-columns: 1fr; } }
 
 /* CV timeline */
@@ -72,6 +76,11 @@ $headings-color: #1f3a4d;
 .collab-grid img {
   width: 110px; height: 110px; object-fit: cover; border-radius: 50%;
   margin-bottom: .5rem;
+}
+.collab-initials {
+  width: 110px; height: 110px; border-radius: 50%; margin: 0 auto .5rem;
+  display: flex; align-items: center; justify-content: center;
+  background: #dbe7ef; color: $headings-color; font-size: 2rem; font-weight: 700;
 }
 .collab-name { font-weight: 700; font-size: .95rem; color: $headings-color; }
 .collab-links a { margin: 0 .2rem; font-size: 1.15rem; text-decoration: none; }

@@ -9,7 +9,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: "mailto:louise.peckre@sorbonne-paris-nord.fr"
+      href: "mailto:louise.peckre@univ-paris13.fr"
     - text: "Google Scholar"
       href: "https://scholar.google.de/citations?user=MVCrp_MAAAAJ&hl=en"
     - text: "ResearchGate"

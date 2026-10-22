@@ -29,6 +29,10 @@ Watch the red-fronted lemurs in action!
 <audio controls src="files/listen-and-guess.mp3"></audio>
 -->
 
+## Université pour Tous du Tarn {#upt-tarn}
+
+- **2025** – Course « Biomimicry: Threads and Webs, When Spiders Inspire Us », with Véronique Lambert (2 × 3 h) [FR]
+
 ## Curso Raíces de lo Humano {#curso}
 
 <!-- Ajoutez ici la description et les visuels du cours -->

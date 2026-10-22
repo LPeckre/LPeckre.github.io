@@ -27,7 +27,7 @@ website:
         href: collaborators.qmd
     right:
       - icon: envelope
-        href: "mailto:louise.peckre@sorbonne-paris-nord.fr"
+        href: "mailto:louise.peckre@univ-paris13.fr"
         aria-label: Email
   page-footer:
     center: "© Louise Peckre · Photos ©L.Peckre · Built with [Quarto](https://quarto.org)"
