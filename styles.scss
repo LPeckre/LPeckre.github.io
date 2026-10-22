@@ -35,8 +35,17 @@ $headings-color: #1f3a4d;
 .banner-role { font-size: 1.15rem; font-weight: 400; }
 .banner-lab  { font-size: .95rem; font-weight: 300; opacity: .9; }
 
-/* Space between the blue header block and the page content */
-#quarto-content { padding-top: 2.5rem; }
+/* Space between the blue banner and the text below it */
+.site-banner { margin-bottom: 2rem; }
+
+/* Justified paragraphs */
+.about-contents p { text-align: justify; hyphens: auto; }
+
+/* Home: wider page, narrower left column (photo + links) */
+.page-layout-full .quarto-about-trestles { max-width: 1200px; margin: 0 auto; }
+@media (min-width: 992px) { .quarto-about-trestles .about-entity { flex: 0 0 28% !important; } }
+.quarto-about-trestles { padding-top: 1.5em !important; }
+.home-photo { width: 100%; max-height: 320px; object-fit: cover; border-radius: 6px; margin-top: 1rem; }
 
 /* Home */
 .keywords { font-style: italic; color: $primary; }

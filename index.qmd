@@ -1,10 +1,11 @@
 ---
 title: "Louise Peckre"
 pagetitle: "Louise Peckre"
+page-layout: full
 image: images/profile.jpeg
 about:
   template: trestles
-  image-width: 14em
+  image-width: 11em
   image-shape: round
   links:
     - icon: envelope
@@ -20,7 +21,7 @@ about:
 
 My research investigates the evolution of social behavior and communication across species, with a focus on how social and ecological factors shape signaling strategies. I am particularly interested in multimodal communication, the interplay between communicative and social complexity, and the cognitive and functional underpinnings of behavioral diversity. I combine observational, experimental, and comparative approaches to explore these questions across a broad range of taxa, including vertebrates and invertebrates. I also contribute to teaching and mentoring in behavioral biology and ethology.
 
-[**My research in keywords:** Evolution – Communication – Sociality – Multimodality – Grasping abilities]{.keywords}
+[**My research in keywords:** Evolution – Communication – Sociality – Multimodality – Cross-taxonomic – Grasping abilities]{.keywords}
 
 ### Contact
 
@@ -34,4 +35,4 @@ My research investigates the evolution of social behavior and communication acro
 <a href="https://orcid.org/0000-0002-0065-8529" title="ORCID"><i class="ai ai-orcid"></i></a>
 :::
 
-![](images/home.jpg){fig-alt="Lemurs in the field" style="width:100%; border-radius:6px; margin-top:1.5rem;"}
+![](images/home.jpg){fig-alt="Lemurs in the field" .home-photo}
