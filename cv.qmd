@@ -1,0 +1,94 @@
+---
+title: "Curriculum Vitae"
+subtitle: "Graduated in fundamental and comparative Ethology"
+---
+
+<i class="bi bi-file-earmark-pdf"></i> [Download my CV (PDF)](files/CV_Peckre.pdf)
+
+## Research experience
+
+::: {.cv-entry}
+[Université Sorbonne Paris Nord]{.where}  
+[Laboratoire d'Ethologie Expérimentale et Comparée (LEEC)]{.unit}
+
+- **Assistant Professor** – September 2024 – present
+:::
+
+::: {.cv-entry}
+[Institut Universitaire Champollion, Albi, France]{.where}  
+[Department of Science and Technology]{.unit}
+
+- **Temporary lecturer** – September 2022 – August 2024  
+  Subjects taught: animal and plant physiology, animal and plant biology, relationship between organisms and environment, introduction to R
+:::
+
+::: {.cv-entry}
+[Deutsches Primatenzentrum, Göttingen, Germany]{.where}
+
+[Cognitive Ethology Unit]{.unit}
+
+- **Guest Scientist** – July 2021 – present
+
+[Behavioural Ecology and Sociobiology Unit]{.unit}
+
+- **Parental leave** – May 2020 – January 2021
+- **Doctoral position** – March 2017 – May 2020 · Deutsche Forschungsgemeinschaft (DFG) funding
+- **Pre-doctoral position** – November 2015 – February 2017 · Pilot study & writing of a DFG grant proposal
+
+*Measuring communicative complexity across modalities: a new framework in the context of the "social complexity hypothesis" and its application in true lemurs*  
+12 months of fieldwork in Madagascar  
+Supervision: Pr. Peter M. Kappeler & Dr. Claudia Fichtel
+:::
+
+::: {.cv-entry}
+[Centre National de la Recherche Scientifique (CNRS) – Muséum National d'Histoire Naturelle (MNHN), Paris, France]{.where}
+
+- **Research Assistant** – August – September 2015
+- **M.Sc. Trainee** – January – June 2015
+
+*Evolution of grasping abilities in strepsirrhines*  
+Supervision: Dr. Emmanuelle Pouydebat & Dr. Anne-Claire Fabre
+:::
+
+::: {.cv-entry}
+[Laboratoire Ethologie, Cognition, Développement (LECD), Nanterre, France]{.where}
+
+- **M.Sc. Trainee** – April – May 2014
+
+*Age-related variations in intra-sexual interactions in the Black Redstart* Phoenicurus ochruros  
+Supervision: Dr. Tudor Draganoiu & Dr. Guillaume Huet des Aunay
+:::
+
+::: {.cv-entry}
+[Fazenda Marupiara, Paragominas, Brazil]{.where}
+
+- **Research Field Assistant** – March 2013
+
+Ceballos M. C., Góis K. C. R., Sant'Anna A. C. & da Costa M. J. P. (2018). Frequent handling of grazing beef cattle maintained under the rotational stocking method improves temperament over time. *Animal Production Science*, 58(2), 307–313.
+:::
+
+::: {.cv-entry}
+[University of California, Davis, USA]{.where}
+
+- **B.Sc. Trainee** – July – August 2012
+
+Chen J., Schütz K. E. & Tucker C. (2016). Sprinkler flow rate affects dairy cattle preferences, heat load, and insect deterrence behaviour. *Applied Animal Behaviour Science*, 182, 1–8.
+:::
+
+## Education
+
+::: {.cv-entry}
+[Master's degree in fundamental and comparative Ethology]{.where}  
+Paris XIII University, France · 2013 – 2015
+:::
+
+::: {.cv-entry}
+[Five-year engineering programme in biological, agricultural and environmental fields]{.where}  
+Higher Agricultural Institute (ISA), Lille, France  
+Universidade Federal Rural da Amazônia, Belém, Brazil (one semester) · 2010 – 2015
+:::
+
+::: {.cv-entry}
+[Two-year preparatory programme for the competitive entrance examination to veterinary, agricultural, chemistry and geology schools (prépa BCPST)]{.where}  
+Lycée Saint-Louis, Paris, France · 2008 – 2010
+:::

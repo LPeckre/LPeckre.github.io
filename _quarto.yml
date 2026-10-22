@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/
+
+website:
+  title: "Louise Peckre"
+  description: "Assistant Professor – LEEC, Université Sorbonne Paris Nord"
+  favicon: images/profile.jpeg
+  navbar:
+    background: "#1f3a4d"
+    foreground: "#ffffff"
+    title: "Louise Peckre"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Outreach"
+        href: outreach.qmd
+      - text: "Collaborators"
+        href: collaborators.qmd
+    right:
+      - icon: envelope
+        href: "mailto:louise.peckre@sorbonne-paris-nord.fr"
+        aria-label: Email
+  page-footer:
+    center: "© Louise Peckre · Photos ©L.Peckre · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+    include-before-body: _banner.html

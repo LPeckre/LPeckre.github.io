@@ -1,0 +1,78 @@
+/*-- scss:defaults --*/
+$primary: #2a6f97;
+$body-color: #2b2b2b;
+$font-family-sans-serif: "Lato", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
+$headings-color: #1f3a4d;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@400;600;700&display=swap");
+
+/* Banner (blue vanga image) shown at the top of every page */
+.site-banner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1f3a4d;
+  min-height: 170px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.site-banner::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(15, 35, 50, .75), rgba(15, 35, 50, .15));
+}
+.site-banner-text {
+  position: relative;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.banner-name { font-family: "Raleway", sans-serif; font-size: 2rem; font-weight: 700; }
+.banner-role { font-size: 1.15rem; font-weight: 400; }
+.banner-lab  { font-size: .95rem; font-weight: 300; opacity: .9; }
+
+/* Home */
+.keywords { font-style: italic; color: $primary; }
+.contact-links a { margin-right: .6rem; font-size: 1.6rem; text-decoration: none; }
+
+/* Project cards */
+.project-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 2.5rem 0;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #e3e3e3;
+}
+.project-card img { width: 100%; border-radius: 6px; }
+.project-meta { color: #666; font-size: .95rem; }
+@media (max-width: 768px) { .project-card { grid-template-columns: 1fr; } }
+
+/* CV timeline */
+.cv-entry { margin-bottom: 1.4rem; padding-left: 1rem; border-left: 3px solid $primary; }
+.cv-entry .where { font-weight: 700; color: $headings-color; }
+.cv-entry .unit { font-style: italic; color: #555; }
+
+/* Publications */
+.pub-list p { margin-bottom: .9rem; padding-left: 1.5em; text-indent: -1.5em; }
+
+/* Collaborators grid */
+.collab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+.collab-grid img {
+  width: 110px; height: 110px; object-fit: cover; border-radius: 50%;
+  margin-bottom: .5rem;
+}
+.collab-name { font-weight: 700; font-size: .95rem; color: $headings-color; }
+.collab-links a { margin: 0 .2rem; font-size: 1.15rem; text-decoration: none; }
+.book-row img { height: 140px; margin: 0 .6rem .6rem 0; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
