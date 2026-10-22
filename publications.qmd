@@ -1,59 +1,35 @@
 ---
 title: "Publications"
+
+# Fichiers lus pour construire la liste (export Zotero + compléments)
+publications-bib:
+  - Mes_Publications.bib
+  - publications-extra.bib
+
+# Nom affiché en gras
+highlight-author: Peckre
+
+# Co-premiers auteurs (*) : DOI de l'article -> positions des auteurs
+equal-contribution:
+  "10.1007/s00265-025-03608-1": "1,2"
+  "10.1242/jeb.207688": "1,2"
+  "10.2981/wlb.00581": "1,2"
+  "10.1093/biolinnean/bly215": "1,2"
+  "10.1093/biolinnean/bly188": "1,2"
+  "10.1038/srep37729": "1,2"
+
+# Mots qui gardent leur majuscule dans les titres
+keep-case: [Madagascar]
+
+filters:
+  - publications.lua
 ---
 
 \* these authors contributed equally to this work
 
-::: {.pub-list}
+<!-- La liste ci-dessous est générée automatiquement à partir des fichiers .bib
+     indiqués plus haut. Pour la mettre à jour, remplacez Mes_Publications.bib
+     par un nouvel export Zotero. -->
 
-## 2025
-
-Socias-Martínez L., Álvarez E., **Peckre L.R.** & Barba E. (2025) Unveiling clutch investment strategies in birds: a case study on great tits using generalized additive models. *Ecology and Evolution*. [doi:10.1002/ece3.71700](https://doi.org/10.1002/ece3.71700)
-
-Engelhardt S.C.\*, Socias-Martínez L.\*, Poirotte C. et al. (2025) Who to sleep with? Daytime sleeping associations in nocturnal gray mouse lemurs. *Behavioral Ecology and Sociobiology*. [doi:10.1007/s00265-025-03608-1](https://doi.org/10.1007/s00265-025-03608-1)
-
-**Peckre L.R.**, Socias-Martínez L., Kappeler P.M. & Fichtel C. (2025) Unravelling communicative complexity: a multimodal comparative study of two lemur species with different social systems. *Animal Behaviour*. [doi:10.1016/j.anbehav.2025.123163](https://doi.org/10.1016/j.anbehav.2025.123163)
-
-## 2023
-
-Socias-Martínez L. & **Peckre L.R.** (2023) Does sociality affect evolutionary speed? *Peer Community Journal*. [doi:10.24072/pcjournal.352](https://doi.org/10.24072/pcjournal.352)
-
-**Peckre L.R.**, Fabre A.-C., Wall C.E., Pouydebat E. & Whishaw I. (2023) Evolutionary history of food withdraw movements in primates: food withdraw is mediated by nonvisual strategies in 22 species of strepsirrhines. *Evolutionary Biology*. [doi:10.1007/s11692-023-09598-0](https://doi.org/10.1007/s11692-023-09598-0)
-
-Socias-Martínez L., **Peckre L.R.** & Noonan M.J. (2023) Are trapping data suited for home-range estimation? *Ecography*. [doi:10.1111/ecog.06442](https://doi.org/10.1111/ecog.06442)
-
-## 2022
-
-Fabre A.-C., Portela Miguez R., Wall C.E., **Peckre L.R.**, Ehmke E. & Boistel R. (2022) A review of nose picking in primates with new evidence of its occurrence in *Daubentonia madagascariensis*. *Journal of Zoology*. [doi:10.1111/jzo.13034](https://doi.org/10.1111/jzo.13034)
-
-Raviv L., **Peckre L.R.** & Boeckx C. (2022) What is simple is actually quite complex: a critical note on terminology in the domain of language and communication. *Journal of Comparative Psychology*. [doi:10.1037/com0000328](https://doi.org/10.1037/com0000328)
-
-**Peckre L.R.**, Michiels A., Socias-Martínez L., Kappeler P.M. & Fichtel C. (2022) Sex differences in audience effects on anogenital scent marking in the red-fronted lemur. *Scientific Reports*. [doi:10.1038/s41598-022-08861-2](https://doi.org/10.1038/s41598-022-08861-2)
-
-## 2021
-
-Kavanagh E. et al. (2021) Dominance style is a key predictor of vocal use and evolution across nonhuman primates. *Royal Society Open Science*. [doi:10.1098/rsos.210873](https://doi.org/10.1098/rsos.210873)
-
-**Peckre L.R.** (2021) Measuring communicative complexity across modalities: a new framework in the context of the "social complexity hypothesis" and its application in true lemurs. *Ph.D. dissertation*, University of Göttingen. [Link](https://ediss.uni-goettingen.de/handle/21.11130/00-1735-0000-0008-57D0-B)
-
-## 2019
-
-**Peckre L.R.**\*, Lowie A.\*, Brewer D., Ehmke E., Welser K., Shaw E., Wall C.E., Pouydebat E. & Fabre A.-C. (2019) Food mobility and the evolution of grasping behavior: a case study in strepsirrhine primates. *Journal of Experimental Biology*. [doi:10.1242/jeb.207688](https://doi.org/10.1242/jeb.207688)
-
-Buil J.M.M.\*, **Peckre L.R.**\*, Dörge M., Fichtel C., Kappeler P.M. & Scherberger H. (2019) Remotely releasable collar mechanism for medium-sized mammals: an affordable technology to avoid multiple captures. *Wildlife Biology*. [doi:10.2981/wlb.00581](https://doi.org/10.2981/wlb.00581)
-
-**Peckre L.**\*, Fabre A.-C.\*, Hambuckers J., Wall C.E., Socias-Martínez L. & Pouydebat E. (2019) Food properties influence grasping strategies in strepsirrhines. *Biological Journal of the Linnean Society*. [doi:10.1093/biolinnean/bly215](https://doi.org/10.1093/biolinnean/bly215)
-
-## 2018
-
-**Peckre L.**, Kappeler P. & Fichtel C. (2018) Clarifying and expanding the social complexity hypothesis for communicative complexity. *Behavioral Ecology and Sociobiology*. [doi:10.1007/s00265-018-2605-4](https://doi.org/10.1007/s00265-018-2605-4)
-
-Fabre A.-C.\*, **Peckre L.**\*, Pouydebat E. & Wall C.E. (2018) Does the shape of the forelimb long bones covary with grasping behaviour in strepsirrhine primates? *Biological Journal of the Linnean Society*. [doi:10.1093/biolinnean/bly188](https://doi.org/10.1093/biolinnean/bly188)
-
-**Peckre L.**, Defolie C., Kappeler P. & Fichtel C. (2018) Potential self-medication using millipede secretions in red-fronted lemurs: combining anointment and ingestion for a joint action against gastrointestinal parasites? *Primates*. [doi:10.1007/s10329-018-0674-7](https://doi.org/10.1007/s10329-018-0674-7)
-
-## 2016
-
-**Peckre L.**\*, Fabre A.-C.\*, Wall C.E., Brewer D., Ehmke E., Haring D., Shaw E., Welser K. & Pouydebat E. (2016) Holding-on: co-evolution between infant carrying and grasping behaviour in strepsirrhines. *Scientific Reports*. [doi:10.1038/srep37729](https://doi.org/10.1038/srep37729)
-
+::: {#publication-list}
 :::
