@@ -2,26 +2,71 @@
 title: "Projects"
 ---
 
-[Social worms](#socialworms) · [Communicative & social complexity](#complexity) · [Evolution of grasping abilities](#grasping) · [Self-medication?](#selfmedication) · [Releasable collar](#collar)
+[SOcial WORMs](#socialworms) · [Social complexity hypothesis for communicative complexity](#complexity) · [Evolution of grasping abilities](#grasping) · [Self-medication?](#selfmedication) · [Releasable collar](#collar)
+
+<!-- ================================================================== -->
+<!-- SOcial WORMs                                                       -->
+<!-- ================================================================== -->
 
 ::: {.project-card #socialworms}
-![](images/worms.jpeg){fig-alt="Worms"}
+![](images/worms.jpeg){fig-alt="SOcial WORMs project"}
 
 ::: {}
 ## SOcial WORMs
 
 #### An experimental approach to the social puzzle across sexual systems
 
-[January 2026 – present]{.project-meta}
+[January 2026 –]{.project-meta}
 
-**Laboratoire d'Ethologie Expérimentale et Comparée (LEEC)**, Université Sorbonne Paris Nord  
-Funded by the « Appel à Projets de la Commission de la recherche USPN » (10k€)
+::: {.project-details}
+**Affiliation:** Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+
+**Funding:** « Appel à Projets de la Commission de la recherche USPN » (10k€)
+
+**Collaborators:** [Lluís Socias Martínez](https://scholar.google.com/citations?user=wTreZucAAAAJ&hl=en) · [M. Cristina Lorenzi](https://scholar.google.com/citations?user=mLi941wAAAAJ&hl=en) · Malo Loubière
+
+**Students:**
+
+- Mana Mellin, Master 2 student in ethology, Sorbonne Paris Nord University (USPN)
+- Alice Bonuccelli, M1 Neurosciences – Sciences des comportements, Université Caen-Normandie
+- Alice Martret, L3 Psychologie, Sorbonne Paris Nord University (USPN)
 :::
 :::
+:::
 
-## Communicative complexity {#complexity .project-group}
+<!-- ================================================================== -->
+<!-- Social complexity hypothesis for communicative complexity          -->
+<!-- ================================================================== -->
 
-::: {.project-card .project-card-sub #coconet}
+## Social complexity hypothesis for communicative complexity {#complexity .project-group}
+
+::: {.project-card .project-card-sub #lemurs}
+![](images/complexity.jpg){fig-alt="Lemurs"}
+
+::: {}
+### Sociality and multimodal communication in two lemur species
+
+[PhD project · November 2015 –]{.project-meta}
+
+::: {.project-details}
+**Affiliation:** Deutsches Primatenzentrum (German Primate Center), Göttingen
+
+**Funding:** Deutsche Forschungsgemeinschaft (DFG)
+
+**Collaborators:** [Claudia Fichtel](https://www.researchgate.net/profile/Claudia-Fichtel) · [Peter Kappeler](https://scholar.google.com/citations?user=GAcL5ewAAAAJ&hl=en)
+
+**Students:**
+
+- Alexandra Michiels, volunteer student
+- Lilas Allard, Master 1 student, Institut Supérieur d'Agriculture (ISA), Lille, France
+- Miravo Randrianirinarisoa, Master student, Université d'Antananarivo, Antananarivo, Madagascar
+
+**Related publications:** [Peckre et al. 2018, *Behav. Ecol. Sociobiol.*](https://doi.org/10.1007/s00265-018-2605-4) · [Peckre et al. 2022, *Sci. Rep.*](https://doi.org/10.1038/s41598-022-08861-2) · [Peckre et al. 2025, *Anim. Behav.*](https://doi.org/10.1016/j.anbehav.2025.123163) · [Peckre 2021, PhD dissertation](https://dx.doi.org/10.53846/goediss-8503)
+:::
+:::
+:::
+
+::: {.project-card #coconet}
 []{.img-placeholder}
 
 ::: {}
@@ -31,25 +76,21 @@ Funded by the « Appel à Projets de la Commission de la recherche USPN » (10k�
 
 [January 2027 –]{.project-meta}
 
-**Laboratoire d'Ethologie Expérimentale et Comparée (LEEC)**, Université Sorbonne Paris Nord  
-In collaboration with Séverine Hex (Harvard University) and the Réserve Africaine de Sigean
+::: {.project-details}
+**Affiliation:** Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+
+**Collaborators:** [Séverine Hex](https://socfell.fas.harvard.edu/people/severine-hex) (Harvard University) · [Réserve Africaine de Sigean](https://www.reserveafricainesigean.fr/)
+
+**Students:**
+
+- Titouan Willer, Master 2 student in ethology, Sorbonne Paris Nord University (USPN)
 :::
 :::
-
-::: {.project-card #lemurs}
-![](images/complexity.jpg){fig-alt="Lemurs"}
-
-::: {}
-### Sociality and multimodal communication in two lemur species
-
-[PhD Project · November 2015 –]{.project-meta}
-
-**Deutsches Primatenzentrum** (German Primate Center), Göttingen  
-Funded by the Deutsche Forschungsgemeinschaft (DFG)
-
-Related: [Peckre et al. 2018](https://doi.org/10.1007/s00265-018-2605-4) · [Peckre et al. 2022](https://doi.org/10.1038/s41598-022-08861-2) · [Peckre et al. 2025](https://doi.org/10.1016/j.anbehav.2025.123163) · [PhD dissertation](https://ediss.uni-goettingen.de/handle/21.11130/00-1735-0000-0008-57D0-B)
 :::
-:::
+
+<!-- ================================================================== -->
+<!-- Grasping                                                           -->
+<!-- ================================================================== -->
 
 ::: {.project-card #grasping}
 ![](images/grasping.jpg){fig-alt="Strepsirrhine grasping food"}
@@ -57,42 +98,62 @@ Related: [Peckre et al. 2018](https://doi.org/10.1007/s00265-018-2605-4) · [Pec
 ::: {}
 ## The evolution of grasping abilities in Strepsirrhines
 
-[Master Project · January 2015 – 2023]{.project-meta}
+[Master project · January 2015 – 2023]{.project-meta}
 
-**Muséum National d'Histoire Naturelle**, Paris (CNRS), in collaboration with the Duke Lemur Center
+::: {.project-details}
+**Affiliation:** Muséum National d'Histoire Naturelle (MNHN), Paris (CNRS), in collaboration with the Duke Lemur Center
 
-Related: [Peckre et al. 2016](https://doi.org/10.1038/srep37729) · [Fabre et al. 2018](https://doi.org/10.1093/biolinnean/bly188) · [Peckre et al. 2019a](https://doi.org/10.1093/biolinnean/bly215) · [Peckre et al. 2019b](https://doi.org/10.1242/jeb.207688) · [Peckre et al. 2023](https://doi.org/10.1007/s11692-023-09598-0)
+**Collaborators:** [Emmanuelle Pouydebat](https://scholar.google.com/citations?user=Vry0qwcAAAAJ&hl=en) · [Anne-Claire Fabre](https://scholar.google.com/citations?user=3FQx05cAAAAJ&hl=en) · [Christine Wall](https://scholar.google.com/citations?user=VlrYas0AAAAJ&hl=en) · [Aurélien Lowie](https://scholar.google.com/citations?user=eB1GXDoAAAAJ&hl=en) · [Julien Hambuckers](https://scholar.google.com/citations?user=Hf_PdUkAAAAJ&hl=en) · [Ian Whishaw](https://scholar.google.com/citations?user=KP7mXc4AAAAJ&hl=en)
+
+**Related publications:** [Peckre, Fabre et al. 2016, *Sci. Rep.*](https://doi.org/10.1038/srep37729) · [Fabre, Peckre et al. 2018, *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly188) · [Peckre, Fabre et al. 2019, *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly215) · [Peckre, Lowie et al. 2019, *J. Exp. Biol.*](https://doi.org/10.1242/jeb.207688) · [Peckre et al. 2023, *Evol. Biol.*](https://doi.org/10.1007/s11692-023-09598-0)
 :::
 :::
+:::
+
+<!-- ================================================================== -->
+<!-- Self-medication                                                    -->
+<!-- ================================================================== -->
 
 ::: {.project-card #selfmedication}
 ![](images/selfmedication.jpg){fig-alt="Red-fronted lemur with millipede"}
 
 ::: {}
-## Potential self-medication using millipede secretions in red-fronted lemurs
+## Potential self-medication using millipede secretions in strepsirrhines
 
-#### Combining anointment and ingestion for a joint action against gastrointestinal parasites?
+[2016 –]{.project-meta}
 
-[Side Project · 2016 –]{.project-meta}
+::: {.project-details}
+**Affiliations:** Deutsches Primatenzentrum (German Primate Center), Göttingen · Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
 
-**Deutsches Primatenzentrum**, Göttingen
+**Collaborators:** [Charlotte Defolie](https://scholar.google.com/citations?user=PknDP6MAAAAJ&hl=en)
 
-Related: [Peckre et al. 2018](https://doi.org/10.1007/s10329-018-0674-7) · [Outreach](outreach.qmd#self-medication)
+**Students:**
+
+- Abré Sonhaye-Ouye, Master 1 student in ethology, Sorbonne Paris Nord University (USPN)
+
+**Related publications:** [Peckre et al. 2018, *Primates*](https://doi.org/10.1007/s10329-018-0674-7) · [Outreach](outreach.qmd#self-medication)
 :::
 :::
+:::
+
+<!-- ================================================================== -->
+<!-- Releasable collar                                                  -->
+<!-- ================================================================== -->
 
 ::: {.project-card #collar}
 ![](images/collar.jpg){fig-alt="Releasable collar"}
 
 ::: {}
-## Remotely releasable-collar mechanism for mammals
+## An affordable technology to avoid multiple captures: remotely releasable-collar mechanism for mammals
 
-#### An affordable technology to avoid multiple captures
+[2015]{.project-meta}
 
-[Side Project · 2015]{.project-meta}
+::: {.project-details}
+**Affiliation:** Deutsches Primatenzentrum (German Primate Center), Göttingen
 
-**Deutsches Primatenzentrum**, Göttingen
+**Collaborators:** [Jeroen Buil](https://www.linkedin.com/in/jeroen-buil/)
 
-Related: [Buil, Peckre et al. 2019](https://doi.org/10.2981/wlb.00581)
+**Related publications:** [Buil, Peckre et al. 2019, *Wildlife Biol.*](https://doi.org/10.2981/wlb.00581)
+:::
 :::
 :::
