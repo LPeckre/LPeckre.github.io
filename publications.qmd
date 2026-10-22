@@ -25,6 +25,9 @@ filters:
   - publications.lua
 ---
 
+::: {#publication-stats}
+:::
+
 \* these authors contributed equally to this work
 
 <!-- La liste ci-dessous est générée automatiquement à partir des fichiers .bib

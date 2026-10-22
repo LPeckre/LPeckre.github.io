@@ -3,8 +3,6 @@ title: "Curriculum Vitae"
 subtitle: "Graduated in fundamental and comparative Ethology"
 ---
 
-<i class="bi bi-file-earmark-pdf"></i> [Download my CV (PDF)](files/CV_Peckre.pdf)
-
 ## Research experience
 
 ::: {.cv-entry}

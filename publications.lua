@@ -6,7 +6,8 @@
     highlight-author: Peckre                 (family name shown in bold)
     equal-contribution: {"10.xxx/yyy": "1,2"}  (authors 1 and 2 get an asterisk)
     keep-case: [Madagascar]                  (words never lowercased in titles)
-  and a placeholder  ::: {#publication-list}  :::  where the list goes.
+  and placeholders  ::: {#publication-list} :::  (the list) and
+  ::: {#publication-stats} :::  (number of publications / first-authored).
 
   In a .bib entry, note = {equal: 1,2} also works; "and others" -> "et al."
 ]]
@@ -208,12 +209,15 @@ local function resolve(path)
   return path
 end
 
-local function build()
-  local refs, seen, blocks = {}, {}, {}
+local cache
+
+local function load_refs()
+  if cache then return cache.refs, cache.errors end
+  local refs, seen, errors = {}, {}, {}
   for _, f in ipairs(bibfiles) do
     local fh = io.open(resolve(f), "r")
     if not fh then
-      table.insert(blocks, pandoc.Para{ pandoc.Str("[Could not read " .. f .. "]") })
+      table.insert(errors, pandoc.Para{ pandoc.Str("[Could not read " .. f .. "]") })
     else
       local text = fh:read("a"); fh:close()
       for _, r in ipairs(pandoc.read(text, "bibtex").meta.references or {}) do
@@ -224,6 +228,39 @@ local function build()
       end
     end
   end
+  cache = { refs = refs, errors = errors }
+  return refs, errors
+end
+
+-- position of the highlighted author in the author list (nil if absent)
+local function my_position(ref)
+  for i, a in ipairs(ref.author or {}) do
+    if str(a.family) == highlight then return i end
+  end
+end
+
+local function stats_block()
+  local refs = load_refs()
+  local total, first, cofirst = #refs, 0, 0
+  for _, r in ipairs(refs) do
+    local pos = my_position(r)
+    if pos == 1 then
+      first = first + 1
+    elseif pos and equal_positions(r)[pos] and equal_positions(r)[1] then
+      cofirst = cofirst + 1
+    end
+  end
+  local txt = total .. " publications, including " .. first .. " as first author"
+  if cofirst > 0 then
+    txt = txt .. " and " .. cofirst .. " as co-first author*"
+  end
+  return pandoc.Para{ pandoc.Strong(pandoc.Str(txt)) }
+end
+
+local function build()
+  local refs, errors = load_refs()
+  local blocks = {}
+  for _, e in ipairs(errors) do blocks[#blocks + 1] = e end
 
   local items = {}
   for i, r in ipairs(refs) do items[#items + 1] = { ref = r, year = year_of(r), month = str(r.issued):match("%d%d%d%d%-(%d%d)") or "00", idx = i } end
@@ -268,6 +305,9 @@ return {
   },
   {
     Div = function(div)
+      if div.identifier == "publication-stats" then
+        return pandoc.Div({ stats_block() }, pandoc.Attr("publication-stats", { "pub-stats" }))
+      end
       if div.identifier == "publication-list" then
         return pandoc.Div(build(), pandoc.Attr("publication-list", { "pub-list" }))
       end
