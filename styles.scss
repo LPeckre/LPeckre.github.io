@@ -64,6 +64,12 @@ $headings-color: #1f3a4d;
 .project-card img { width: 100%; border-radius: 6px; }
 .project-meta { color: #666; font-size: .95rem; }
 .project-card.no-image { grid-template-columns: 1fr; }
+.project-group { margin-top: 2.5rem; margin-bottom: 0; }
+.project-card-sub { border-bottom: none; padding-bottom: 0; margin-bottom: 1.5rem; }
+.img-placeholder {
+  display: block; width: 100%; aspect-ratio: 4 / 3;
+  background: #eef2f5; border: 1px dashed #c5d0d8; border-radius: 6px;
+}
 .project-sub { margin-top: 1.5rem; padding-left: 1rem; border-left: 3px solid $primary; }
 @media (max-width: 768px) { .project-card { grid-template-columns: 1fr; } }
 
