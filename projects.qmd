@@ -2,32 +2,21 @@
 title: "Projects"
 ---
 
+<!-- Page générée automatiquement par build_projects.py à partir de Projets_complete.xlsx.
+     Ne pas modifier ce fichier : modifiez le fichier Excel. -->
+
 ::: {.proj-nav}
-[SOcial WORMs](#socialworms)
-[Social & communicative complexity](#complexity)
-[Grasping abilities](#grasping)
-[Self-medication](#selfmedication)
-[Releasable collar](#collar)
+[SOcial WORMs](#social-worms)
+[Social complexity hypothesis for communicative complexity](#social-complexity-hypothesis-for)
+[The evolution of grasping abilities in Strepsirrhines](#the-evolution-of-grasping)
+[Potential self-medication using millipede secretions in strepsirrhines](#potential-self-medication-using)
+[An affordable technology to avoid multiple captures](#an-affordable-technology-to)
 :::
 
-<!--
-  MODE D'EMPLOI
-  Chaque projet = une carte avec une bannière (image + titre) puis les détails.
-  - Changer l'image : modifiez le chemin dans  ![](images/....)
-  - Recadrer l'image dans la bannière : ajoutez par ex.  style="object-position: center 30%"
-    (0% = haut de l'image, 100% = bas) dans les accolades de l'image.
-  - Pas encore d'image : supprimez la ligne de l'image et ajoutez .no-image à la bannière
-    (voir COCONET).
--->
-
-<!-- ================================================================== -->
-<!-- SOcial WORMs                                                       -->
-<!-- ================================================================== -->
-
-::: {.proj #socialworms}
+::: {.proj #social-worms}
 
 ::: {.proj-banner}
-![](images/worms.jpeg){.proj-img fig-alt="SOcial WORMs project"}
+![](images/worms.jpeg){.proj-img fig-alt="SOcial WORMs"}
 
 ::: {.proj-banner-text}
 [January 2026 – present]{.proj-period}
@@ -43,7 +32,7 @@ title: "Projects"
 ::: {.fact}
 [Affiliation]{.fact-label}
 
-Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+Laboratoire d’Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
 :::
 
 ::: {.fact}
@@ -55,40 +44,38 @@ Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne
 ::: {.fact}
 [Collaborators]{.fact-label}
 
-[Lluís Socias Martínez](https://scholar.google.com/citations?user=wTreZucAAAAJ&hl=en){.chip} [M. Cristina Lorenzi](https://scholar.google.com/citations?user=mLi941wAAAAJ&hl=en){.chip} [Malo Loubière]{.chip}
+[Lluìs Socias Martinez](https://scholar.google.com/citations?user=wTreZucAAAAJ&hl=fr&oi=ao){.chip} [M. Cristina Lorenzi](https://scholar.google.com/citations?user=mLi941wAAAAJ&hl=fr&oi=ao){.chip} [Malo Loubière]{.chip}
 :::
 
 ::: {.fact}
 [Students]{.fact-label}
 
-- Mana Mellin, Master 2 student in ethology, Sorbonne Paris Nord University (USPN)
-- Alice Bonuccelli, M1 Neurosciences – Sciences des comportements, Université Caen-Normandie
-- Alice Martret, L3 Psychologie, Sorbonne Paris Nord University (USPN)
-:::
+- Mana Mellin, Master 2 student in ethology, Sorbonne Paris North University (USPN)
+- Alice Bonuccelli, M1 Neurosciences-Sciences des comportements, Université Caen-Normandie
+- Alice Martret, L3 Psychologie (USPN)
 :::
 :::
 
 :::
 
-<!-- ================================================================== -->
-<!-- Social complexity hypothesis for communicative complexity          -->
-<!-- ================================================================== -->
+:::
 
-::: {.proj-group #complexity}
+::: {.proj-group #social-complexity-hypothesis-for}
 
 [Research line]{.proj-group-label}
 
 ## Social complexity hypothesis for communicative complexity {.proj-group-title}
 
-::: {.proj #lemurs}
+::: {.proj #sociality-and-multimodal-communication}
 
 ::: {.proj-banner}
-![](images/complexity.jpg){.proj-img fig-alt="Lemurs"}
+![](images/complexity.jpg){.proj-img fig-alt="Sociality and multimodal communication in two lemur species"}
 
 ::: {.proj-banner-text}
-[PhD project · November 2015 –]{.proj-period}
+[PhD project · November 2015 – present]{.proj-period}
 
 ### Sociality and multimodal communication in two lemur species
+
 :::
 :::
 
@@ -116,16 +103,17 @@ Deutsche Forschungsgemeinschaft (DFG)
 [Students]{.fact-label}
 
 - Alexandra Michiels, volunteer student
-- Lilas Allard, Master 1 student, Institut Supérieur d'Agriculture (ISA), Lille, France
-- Miravo Randrianirinarisoa, Master student, Université d'Antananarivo, Antananarivo, Madagascar
+- Lilas Allard, Master 1 student, Institut Supérieur d’Agriculture (ISA), Lille, France.
+- Miravo Randrianirinarisoa, Master, Université d’Antananarivo, Antananarivo, Madagascar
 :::
 :::
 
 ::: {.proj-pubs}
 [Related publications]{.fact-label}
 
-[Peckre et al. 2018 · *Behav. Ecol. Sociobiol.*](https://doi.org/10.1007/s00265-018-2605-4){.pill} [Peckre et al. 2022 · *Sci. Rep.*](https://doi.org/10.1038/s41598-022-08861-2){.pill} [Peckre et al. 2025 · *Anim. Behav.*](https://doi.org/10.1016/j.anbehav.2025.123163){.pill} [Peckre 2021 · PhD dissertation](https://dx.doi.org/10.53846/goediss-8503){.pill}
+[Peckre et al. 2019 · *Behavioral Ecology and Sociobiology*](https://doi.org/10.1007/s00265-018-2605-4){.pill} [Peckre et al. 2022 · *Scientific Reports*](https://doi.org/10.1038/s41598-022-08861-2){.pill} [Peckre et al. 2025 · *Animal Behaviour*](https://doi.org/10.1016/j.anbehav.2025.123163){.pill} [Peckre 2021 · PhD dissertation](https://doi.org/10.53846/goediss-8503){.pill}
 :::
+
 :::
 
 :::
@@ -133,8 +121,9 @@ Deutsche Forschungsgemeinschaft (DFG)
 ::: {.proj #coconet}
 
 ::: {.proj-banner .no-image}
+
 ::: {.proj-banner-text}
-[January 2027 –]{.proj-period}
+[Starting January 2027]{.proj-period}
 
 ### COCONET
 
@@ -147,20 +136,19 @@ Deutsche Forschungsgemeinschaft (DFG)
 ::: {.fact}
 [Affiliation]{.fact-label}
 
-Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+Laboratoire d’Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
 :::
 
 ::: {.fact}
 [Collaborators]{.fact-label}
 
-[Séverine Hex · Harvard University](https://socfell.fas.harvard.edu/people/severine-hex){.chip} [Réserve Africaine de Sigean](https://www.reserveafricainesigean.fr/){.chip}
+[Severine Hex](https://socfell.fas.harvard.edu/people/severine-hex){.chip} [Réserve Africaine de Sigean](https://www.reserveafricainesigean.fr/){.chip}
 :::
 
 ::: {.fact}
 [Students]{.fact-label}
 
-- Titouan Willer, Master 2 student in ethology, Sorbonne Paris Nord University (USPN)
-:::
+- Titouan Willer, Master 2 student in ethology, Sorbonne Paris North University (USPN)
 :::
 :::
 
@@ -168,19 +156,18 @@ Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne
 
 :::
 
-<!-- ================================================================== -->
-<!-- Grasping                                                           -->
-<!-- ================================================================== -->
+:::
 
-::: {.proj #grasping}
+::: {.proj #the-evolution-of-grasping}
 
 ::: {.proj-banner}
-![](images/grasping.jpg){.proj-img fig-alt="Strepsirrhine grasping food"}
+![](images/grasping.jpg){.proj-img fig-alt="The evolution of grasping abilities in Strepsirrhines"}
 
 ::: {.proj-banner-text}
 [Master project · January 2015 – 2023]{.proj-period}
 
 ## The evolution of grasping abilities in Strepsirrhines
+
 :::
 :::
 
@@ -202,25 +189,23 @@ Muséum National d'Histoire Naturelle (MNHN), Paris (CNRS), in collaboration wit
 ::: {.proj-pubs}
 [Related publications]{.fact-label}
 
-[Peckre, Fabre et al. 2016 · *Sci. Rep.*](https://doi.org/10.1038/srep37729){.pill} [Fabre, Peckre et al. 2018 · *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly188){.pill} [Peckre, Fabre et al. 2019 · *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly215){.pill} [Peckre, Lowie et al. 2019 · *J. Exp. Biol.*](https://doi.org/10.1242/jeb.207688){.pill} [Peckre et al. 2023 · *Evol. Biol.*](https://doi.org/10.1007/s11692-023-09598-0){.pill}
+[Peckre et al. 2016 · *Scientific Reports*](https://doi.org/10.1038/srep37729){.pill} [Fabre et al. 2019 · *Biological Journal of the Linnean Society*](https://doi.org/10.1093/biolinnean/bly188){.pill} [Peckre et al. 2019 · *Biological Journal of the Linnean Society*](https://doi.org/10.1093/biolinnean/bly215){.pill} [Peckre et al. 2019 · *Journal of Experimental Biology*](https://doi.org/10.1242/jeb.207688){.pill} [Peckre et al. 2023 · *Evolutionary Biology*](https://doi.org/10.1007/s11692-023-09598-0){.pill}
 :::
+
 :::
 
 :::
 
-<!-- ================================================================== -->
-<!-- Self-medication                                                    -->
-<!-- ================================================================== -->
-
-::: {.proj #selfmedication}
+::: {.proj #potential-self-medication-using}
 
 ::: {.proj-banner}
-![](images/selfmedication.jpg){.proj-img fig-alt="Red-fronted lemur with millipede"}
+![](images/selfmedication.jpg){.proj-img fig-alt="Potential self-medication using millipede secretions in strepsirrhines"}
 
 ::: {.proj-banner-text}
-[2016 –]{.proj-period}
+[2016 – present]{.proj-period}
 
 ## Potential self-medication using millipede secretions in strepsirrhines
+
 :::
 :::
 
@@ -231,7 +216,7 @@ Muséum National d'Histoire Naturelle (MNHN), Paris (CNRS), in collaboration wit
 
 Deutsches Primatenzentrum (German Primate Center), Göttingen
 
-Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+Laboratoire d’Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
 :::
 
 ::: {.fact}
@@ -243,27 +228,24 @@ Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne
 ::: {.fact}
 [Students]{.fact-label}
 
-- Abré Sonhaye-Ouye, Master 1 student in ethology, Sorbonne Paris Nord University (USPN)
+- Abré Sonhaye-Ouye, Master 1 student in ethologie, Sorbonne Paris North University (USPN)
 :::
 :::
 
 ::: {.proj-pubs}
 [Related publications]{.fact-label}
 
-[Peckre et al. 2018 · *Primates*](https://doi.org/10.1007/s10329-018-0674-7){.pill} [In the media → Outreach](outreach.qmd#self-medication){.pill .pill-alt}
+[Peckre et al. 2018 · *Primates*](https://doi.org/10.1007/s10329-018-0674-7){.pill}
 :::
+
 :::
 
 :::
 
-<!-- ================================================================== -->
-<!-- Releasable collar                                                  -->
-<!-- ================================================================== -->
-
-::: {.proj #collar}
+::: {.proj #an-affordable-technology-to}
 
 ::: {.proj-banner}
-![](images/collar.jpg){.proj-img fig-alt="Releasable collar"}
+![](images/collar.jpg){.proj-img fig-alt="An affordable technology to avoid multiple captures"}
 
 ::: {.proj-banner-text}
 [2015]{.proj-period}
@@ -292,8 +274,9 @@ Deutsches Primatenzentrum (German Primate Center), Göttingen
 ::: {.proj-pubs}
 [Related publications]{.fact-label}
 
-[Buil, Peckre et al. 2019 · *Wildlife Biol.*](https://doi.org/10.2981/wlb.00581){.pill}
+[Buil et al. 2019 · *Wildlife Biology*](https://doi.org/10.2981/wlb.00581){.pill}
 :::
+
 :::
 
 :::
