@@ -127,7 +127,7 @@ $headings-color: #1f3a4d;
 
 /* Banner: image + title on a gradient */
 .proj-banner {
-  position: relative; min-height: 260px;
+  position: relative; min-height: 260px; overflow: hidden;
   display: flex; align-items: flex-end;
   background: linear-gradient(135deg, #1f3a4d, #2a6f97);
 }
@@ -141,6 +141,19 @@ $headings-color: #1f3a4d;
   background: linear-gradient(180deg, rgba(10, 25, 35, 0) 25%, rgba(10, 25, 35, .82) 100%);
 }
 .proj-banner.no-image { min-height: 200px; }
+
+/* "entière": whole image visible, sides filled with a blurred copy */
+.proj-banner.fit-whole { min-height: 320px; overflow: hidden; }
+.proj-banner > p:has(img.proj-img-bg) { margin: 0; }
+.proj-banner img.proj-img-bg {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; filter: blur(22px) brightness(.75) saturate(1.1); transform: scale(1.15);
+}
+.proj-banner.fit-whole img.proj-img { object-fit: contain; }
+.proj-banner.fit-whole::after {
+  background: linear-gradient(180deg, rgba(10, 25, 35, 0) 45%, rgba(10, 25, 35, .85) 100%);
+}
+@media (max-width: 768px) { .proj-banner.fit-whole { min-height: 240px; } }
 .proj-banner.no-image::after {
   background: radial-gradient(circle at 85% 20%, rgba(255,255,255,.14) 0 22%, transparent 23%),
               radial-gradient(circle at 75% 85%, rgba(255,255,255,.08) 0 18%, transparent 19%);

@@ -11,6 +11,10 @@ Fichier lu : Projets_complete.xlsx (première feuille), colonnes :
   C Titre du sous-projet   H Liens collaborateurs   (un par ligne, même ordre que G)
   D Period                 I Students               (un par ligne)
   E Affiliations           J Publications associées (DOI ou liens, un par ligne)
+                           K Cadrage image (facultatif) :
+                               « entière » -> image complète, côtés remplis par un flou
+                               « haut », « bas », ou un pourcentage (ex. 30 %) -> partie
+                               de l'image à montrer quand elle est recadrée
 
 Règles :
   - Une ligne dont la colonne A est vide appartient au projet de la ligne du dessus.
@@ -161,6 +165,14 @@ def split_title(title):
     return title, ""
 
 
+def short(label, limit=38):
+    """Shorten a navigation label at a word boundary."""
+    if len(label) <= limit:
+        return label
+    cut = label[:limit].rsplit(" ", 1)[0]
+    return cut.rstrip(",;:") + "…"
+
+
 def fmt_period(p):
     p = (p or "").strip()
     if not p:
@@ -225,7 +237,19 @@ def card(row, title, subtitle, kind, level, pubs, anchor):
     out = [f"::: {{.proj #{anchor}}}\n"]
     if image:
         src = image if "/" in image else IMAGE_DIR + image
-        out.append(f"::: {{.proj-banner}}\n![]({src}){{.proj-img fig-alt=\"{md(title)}\"}}\n")
+        crop = (row.get("K") or "").strip().lower()
+        if crop.startswith("enti") or crop in ("whole", "full", "complete", "complète"):
+            out.append("::: {.proj-banner .fit-whole}\n"
+                       f"![]({src}){{.proj-img-bg fig-alt=\"\"}}\n\n"
+                       f"![]({src}){{.proj-img fig-alt=\"{md(title)}\"}}\n")
+        else:
+            pos = {"haut": "top", "top": "top", "bas": "bottom", "bottom": "bottom",
+                   "centre": "center", "center": "center"}.get(crop)
+            m = re.match(r"^(\d{1,3})\s*%?$", crop)
+            if m:
+                pos = f"center {min(int(m.group(1)), 100)}%"
+            style = f' style="object-position: {pos}"' if pos else ""
+            out.append(f"::: {{.proj-banner}}\n![]({src}){{.proj-img fig-alt=\"{md(title)}\"{style}}}\n")
     else:
         out.append("::: {.proj-banner .no-image}\n")
     out.append("::: {.proj-banner-text}")
@@ -274,7 +298,7 @@ def main():
     # group rows: an empty column A continues the project above
     groups = []
     for r in data:
-        if not any(r.get(c) for c in "ABCDEFGHIJ"):
+        if not any(r.get(c) for c in "ABCDEFGHIJK"):
             continue
         if r.get("A") or not groups:
             groups.append([r])
@@ -320,7 +344,7 @@ def main():
     out = ['---\ntitle: "Projects"\n---\n',
            "<!-- Page générée automatiquement par build_projects.py à partir de "
            f"{XLSX}.\n     Ne pas modifier ce fichier : modifiez le fichier Excel. -->\n",
-           "::: {.proj-nav}\n" + "\n".join(f"[{md(t)}](#{a})" for t, a in nav) + "\n:::\n"]
+           "::: {.proj-nav}\n" + "\n".join(f"[{md(short(t))}](#{a})" for t, a in nav) + "\n:::\n"]
     out += body
     OUTPUT.write_text("\n".join(out), encoding="utf-8")
     print(f"build_projects.py: {len(groups)} projects written to {OUTPUT}")
