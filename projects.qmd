@@ -2,30 +2,64 @@
 title: "Projects"
 ---
 
-[SOcial WORMs](#socialworms) · [Social complexity hypothesis for communicative complexity](#complexity) · [Evolution of grasping abilities](#grasping) · [Self-medication?](#selfmedication) · [Releasable collar](#collar)
+::: {.proj-nav}
+[SOcial WORMs](#socialworms)
+[Social & communicative complexity](#complexity)
+[Grasping abilities](#grasping)
+[Self-medication](#selfmedication)
+[Releasable collar](#collar)
+:::
+
+<!--
+  MODE D'EMPLOI
+  Chaque projet = une carte avec une bannière (image + titre) puis les détails.
+  - Changer l'image : modifiez le chemin dans  ![](images/....)
+  - Recadrer l'image dans la bannière : ajoutez par ex.  style="object-position: center 30%"
+    (0% = haut de l'image, 100% = bas) dans les accolades de l'image.
+  - Pas encore d'image : supprimez la ligne de l'image et ajoutez .no-image à la bannière
+    (voir COCONET).
+-->
 
 <!-- ================================================================== -->
 <!-- SOcial WORMs                                                       -->
 <!-- ================================================================== -->
 
-::: {.project-card #socialworms}
-![](images/worms.jpeg){fig-alt="SOcial WORMs project"}
+::: {.proj #socialworms}
 
-::: {}
+::: {.proj-banner}
+![](images/worms.jpeg){.proj-img fig-alt="SOcial WORMs project"}
+
+::: {.proj-banner-text}
+[January 2026 – present]{.proj-period}
+
 ## SOcial WORMs
 
-#### An experimental approach to the social puzzle across sexual systems
+[An experimental approach to the social puzzle across sexual systems]{.proj-subtitle}
+:::
+:::
 
-[January 2026 –]{.project-meta}
+::: {.proj-body}
+::: {.proj-facts}
+::: {.fact}
+[Affiliation]{.fact-label}
 
-::: {.project-details}
-**Affiliation:** Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+:::
 
-**Funding:** « Appel à Projets de la Commission de la recherche USPN » (10k€)
+::: {.fact}
+[Funding]{.fact-label}
 
-**Collaborators:** [Lluís Socias Martínez](https://scholar.google.com/citations?user=wTreZucAAAAJ&hl=en) · [M. Cristina Lorenzi](https://scholar.google.com/citations?user=mLi941wAAAAJ&hl=en) · Malo Loubière
+« Appel à Projets de la Commission de la recherche USPN » (10k€)
+:::
 
-**Students:**
+::: {.fact}
+[Collaborators]{.fact-label}
+
+[Lluís Socias Martínez](https://scholar.google.com/citations?user=wTreZucAAAAJ&hl=en){.chip} [M. Cristina Lorenzi](https://scholar.google.com/citations?user=mLi941wAAAAJ&hl=en){.chip} [Malo Loubière]{.chip}
+:::
+
+::: {.fact}
+[Students]{.fact-label}
 
 - Mana Mellin, Master 2 student in ethology, Sorbonne Paris Nord University (USPN)
 - Alice Bonuccelli, M1 Neurosciences – Sciences des comportements, Université Caen-Normandie
@@ -34,126 +68,232 @@ title: "Projects"
 :::
 :::
 
+:::
+
 <!-- ================================================================== -->
 <!-- Social complexity hypothesis for communicative complexity          -->
 <!-- ================================================================== -->
 
-## Social complexity hypothesis for communicative complexity {#complexity .project-group}
+::: {.proj-group #complexity}
 
-::: {.project-card .project-card-sub #lemurs}
-![](images/complexity.jpg){fig-alt="Lemurs"}
+[Research line]{.proj-group-label}
 
-::: {}
+## Social complexity hypothesis for communicative complexity {.proj-group-title}
+
+::: {.proj #lemurs}
+
+::: {.proj-banner}
+![](images/complexity.jpg){.proj-img fig-alt="Lemurs"}
+
+::: {.proj-banner-text}
+[PhD project · November 2015 –]{.proj-period}
+
 ### Sociality and multimodal communication in two lemur species
+:::
+:::
 
-[PhD project · November 2015 –]{.project-meta}
+::: {.proj-body}
+::: {.proj-facts}
+::: {.fact}
+[Affiliation]{.fact-label}
 
-::: {.project-details}
-**Affiliation:** Deutsches Primatenzentrum (German Primate Center), Göttingen
+Deutsches Primatenzentrum (German Primate Center), Göttingen
+:::
 
-**Funding:** Deutsche Forschungsgemeinschaft (DFG)
+::: {.fact}
+[Funding]{.fact-label}
 
-**Collaborators:** [Claudia Fichtel](https://www.researchgate.net/profile/Claudia-Fichtel) · [Peter Kappeler](https://scholar.google.com/citations?user=GAcL5ewAAAAJ&hl=en)
+Deutsche Forschungsgemeinschaft (DFG)
+:::
 
-**Students:**
+::: {.fact}
+[Collaborators]{.fact-label}
+
+[Claudia Fichtel](https://www.researchgate.net/profile/Claudia-Fichtel){.chip} [Peter Kappeler](https://scholar.google.com/citations?user=GAcL5ewAAAAJ&hl=en){.chip}
+:::
+
+::: {.fact}
+[Students]{.fact-label}
 
 - Alexandra Michiels, volunteer student
 - Lilas Allard, Master 1 student, Institut Supérieur d'Agriculture (ISA), Lille, France
 - Miravo Randrianirinarisoa, Master student, Université d'Antananarivo, Antananarivo, Madagascar
-
-**Related publications:** [Peckre et al. 2018, *Behav. Ecol. Sociobiol.*](https://doi.org/10.1007/s00265-018-2605-4) · [Peckre et al. 2022, *Sci. Rep.*](https://doi.org/10.1038/s41598-022-08861-2) · [Peckre et al. 2025, *Anim. Behav.*](https://doi.org/10.1016/j.anbehav.2025.123163) · [Peckre 2021, PhD dissertation](https://dx.doi.org/10.53846/goediss-8503)
-:::
 :::
 :::
 
-::: {.project-card #coconet}
-[]{.img-placeholder}
+::: {.proj-pubs}
+[Related publications]{.fact-label}
 
-::: {}
+[Peckre et al. 2018 · *Behav. Ecol. Sociobiol.*](https://doi.org/10.1007/s00265-018-2605-4){.pill} [Peckre et al. 2022 · *Sci. Rep.*](https://doi.org/10.1038/s41598-022-08861-2){.pill} [Peckre et al. 2025 · *Anim. Behav.*](https://doi.org/10.1016/j.anbehav.2025.123163){.pill} [Peckre 2021 · PhD dissertation](https://dx.doi.org/10.53846/goediss-8503){.pill}
+:::
+:::
+
+:::
+
+::: {.proj #coconet}
+
+::: {.proj-banner .no-image}
+::: {.proj-banner-text}
+[January 2027 –]{.proj-period}
+
 ### COCONET
 
-#### Combining Comparative Network approaches to explore multimodal communication in zebras and beyond
+[Combining Comparative Network approaches to explore multimodal communication in zebras and beyond]{.proj-subtitle}
+:::
+:::
 
-[January 2027 –]{.project-meta}
+::: {.proj-body}
+::: {.proj-facts}
+::: {.fact}
+[Affiliation]{.fact-label}
 
-::: {.project-details}
-**Affiliation:** Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+:::
 
-**Collaborators:** [Séverine Hex](https://socfell.fas.harvard.edu/people/severine-hex) (Harvard University) · [Réserve Africaine de Sigean](https://www.reserveafricainesigean.fr/)
+::: {.fact}
+[Collaborators]{.fact-label}
 
-**Students:**
+[Séverine Hex · Harvard University](https://socfell.fas.harvard.edu/people/severine-hex){.chip} [Réserve Africaine de Sigean](https://www.reserveafricainesigean.fr/){.chip}
+:::
+
+::: {.fact}
+[Students]{.fact-label}
 
 - Titouan Willer, Master 2 student in ethology, Sorbonne Paris Nord University (USPN)
 :::
 :::
 :::
 
+:::
+
+:::
+
 <!-- ================================================================== -->
 <!-- Grasping                                                           -->
 <!-- ================================================================== -->
 
-::: {.project-card #grasping}
-![](images/grasping.jpg){fig-alt="Strepsirrhine grasping food"}
+::: {.proj #grasping}
 
-::: {}
+::: {.proj-banner}
+![](images/grasping.jpg){.proj-img fig-alt="Strepsirrhine grasping food"}
+
+::: {.proj-banner-text}
+[Master project · January 2015 – 2023]{.proj-period}
+
 ## The evolution of grasping abilities in Strepsirrhines
-
-[Master project · January 2015 – 2023]{.project-meta}
-
-::: {.project-details}
-**Affiliation:** Muséum National d'Histoire Naturelle (MNHN), Paris (CNRS), in collaboration with the Duke Lemur Center
-
-**Collaborators:** [Emmanuelle Pouydebat](https://scholar.google.com/citations?user=Vry0qwcAAAAJ&hl=en) · [Anne-Claire Fabre](https://scholar.google.com/citations?user=3FQx05cAAAAJ&hl=en) · [Christine Wall](https://scholar.google.com/citations?user=VlrYas0AAAAJ&hl=en) · [Aurélien Lowie](https://scholar.google.com/citations?user=eB1GXDoAAAAJ&hl=en) · [Julien Hambuckers](https://scholar.google.com/citations?user=Hf_PdUkAAAAJ&hl=en) · [Ian Whishaw](https://scholar.google.com/citations?user=KP7mXc4AAAAJ&hl=en)
-
-**Related publications:** [Peckre, Fabre et al. 2016, *Sci. Rep.*](https://doi.org/10.1038/srep37729) · [Fabre, Peckre et al. 2018, *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly188) · [Peckre, Fabre et al. 2019, *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly215) · [Peckre, Lowie et al. 2019, *J. Exp. Biol.*](https://doi.org/10.1242/jeb.207688) · [Peckre et al. 2023, *Evol. Biol.*](https://doi.org/10.1007/s11692-023-09598-0)
 :::
 :::
+
+::: {.proj-body}
+::: {.proj-facts}
+::: {.fact}
+[Affiliation]{.fact-label}
+
+Muséum National d'Histoire Naturelle (MNHN), Paris (CNRS), in collaboration with the Duke Lemur Center
+:::
+
+::: {.fact}
+[Collaborators]{.fact-label}
+
+[Emmanuelle Pouydebat](https://scholar.google.com/citations?user=Vry0qwcAAAAJ&hl=en){.chip} [Anne-Claire Fabre](https://scholar.google.com/citations?user=3FQx05cAAAAJ&hl=en){.chip} [Christine Wall](https://scholar.google.com/citations?user=VlrYas0AAAAJ&hl=en){.chip} [Aurélien Lowie](https://scholar.google.com/citations?user=eB1GXDoAAAAJ&hl=en){.chip} [Julien Hambuckers](https://scholar.google.com/citations?user=Hf_PdUkAAAAJ&hl=en){.chip} [Ian Whishaw](https://scholar.google.com/citations?user=KP7mXc4AAAAJ&hl=en){.chip}
+:::
+:::
+
+::: {.proj-pubs}
+[Related publications]{.fact-label}
+
+[Peckre, Fabre et al. 2016 · *Sci. Rep.*](https://doi.org/10.1038/srep37729){.pill} [Fabre, Peckre et al. 2018 · *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly188){.pill} [Peckre, Fabre et al. 2019 · *Biol. J. Linn. Soc.*](https://doi.org/10.1093/biolinnean/bly215){.pill} [Peckre, Lowie et al. 2019 · *J. Exp. Biol.*](https://doi.org/10.1242/jeb.207688){.pill} [Peckre et al. 2023 · *Evol. Biol.*](https://doi.org/10.1007/s11692-023-09598-0){.pill}
+:::
+:::
+
 :::
 
 <!-- ================================================================== -->
 <!-- Self-medication                                                    -->
 <!-- ================================================================== -->
 
-::: {.project-card #selfmedication}
-![](images/selfmedication.jpg){fig-alt="Red-fronted lemur with millipede"}
+::: {.proj #selfmedication}
 
-::: {}
+::: {.proj-banner}
+![](images/selfmedication.jpg){.proj-img fig-alt="Red-fronted lemur with millipede"}
+
+::: {.proj-banner-text}
+[2016 –]{.proj-period}
+
 ## Potential self-medication using millipede secretions in strepsirrhines
+:::
+:::
 
-[2016 –]{.project-meta}
+::: {.proj-body}
+::: {.proj-facts}
+::: {.fact}
+[Affiliations]{.fact-label}
 
-::: {.project-details}
-**Affiliations:** Deutsches Primatenzentrum (German Primate Center), Göttingen · Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+Deutsches Primatenzentrum (German Primate Center), Göttingen
 
-**Collaborators:** [Charlotte Defolie](https://scholar.google.com/citations?user=PknDP6MAAAAJ&hl=en)
+Laboratoire d'Ethologie Expérimentale et Comparée (LEEC), Université Sorbonne Paris Nord
+:::
 
-**Students:**
+::: {.fact}
+[Collaborators]{.fact-label}
+
+[Charlotte Defolie](https://scholar.google.com/citations?user=PknDP6MAAAAJ&hl=en){.chip}
+:::
+
+::: {.fact}
+[Students]{.fact-label}
 
 - Abré Sonhaye-Ouye, Master 1 student in ethology, Sorbonne Paris Nord University (USPN)
+:::
+:::
 
-**Related publications:** [Peckre et al. 2018, *Primates*](https://doi.org/10.1007/s10329-018-0674-7) · [Outreach](outreach.qmd#self-medication)
+::: {.proj-pubs}
+[Related publications]{.fact-label}
+
+[Peckre et al. 2018 · *Primates*](https://doi.org/10.1007/s10329-018-0674-7){.pill} [In the media → Outreach](outreach.qmd#self-medication){.pill .pill-alt}
 :::
 :::
+
 :::
 
 <!-- ================================================================== -->
 <!-- Releasable collar                                                  -->
 <!-- ================================================================== -->
 
-::: {.project-card #collar}
-![](images/collar.jpg){fig-alt="Releasable collar"}
+::: {.proj #collar}
 
-::: {}
-## An affordable technology to avoid multiple captures: remotely releasable-collar mechanism for mammals
+::: {.proj-banner}
+![](images/collar.jpg){.proj-img fig-alt="Releasable collar"}
 
-[2015]{.project-meta}
+::: {.proj-banner-text}
+[2015]{.proj-period}
 
-::: {.project-details}
-**Affiliation:** Deutsches Primatenzentrum (German Primate Center), Göttingen
+## An affordable technology to avoid multiple captures
 
-**Collaborators:** [Jeroen Buil](https://www.linkedin.com/in/jeroen-buil/)
-
-**Related publications:** [Buil, Peckre et al. 2019, *Wildlife Biol.*](https://doi.org/10.2981/wlb.00581)
+[Remotely releasable-collar mechanism for mammals]{.proj-subtitle}
 :::
 :::
+
+::: {.proj-body}
+::: {.proj-facts}
+::: {.fact}
+[Affiliation]{.fact-label}
+
+Deutsches Primatenzentrum (German Primate Center), Göttingen
+:::
+
+::: {.fact}
+[Collaborators]{.fact-label}
+
+[Jeroen Buil](https://www.linkedin.com/in/jeroen-buil/){.chip}
+:::
+:::
+
+::: {.proj-pubs}
+[Related publications]{.fact-label}
+
+[Buil, Peckre et al. 2019 · *Wildlife Biol.*](https://doi.org/10.2981/wlb.00581){.pill}
+:::
+:::
+
 :::

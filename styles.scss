@@ -1,12 +1,12 @@
 /*-- scss:defaults --*/
 $primary: #2a6f97;
 $body-color: #2b2b2b;
-$font-family-sans-serif: "Lato", "Helvetica Neue", Arial, sans-serif;
-$headings-font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: "Quicksand", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Quicksand", "Helvetica Neue", Arial, sans-serif;
 $headings-color: #1f3a4d;
 
 /*-- scss:rules --*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 /* Banner (blue vanga image) shown at the top of every page */
 .site-banner {
@@ -31,9 +31,9 @@ $headings-color: #1f3a4d;
   margin: 0 auto;
   width: 100%;
 }
-.banner-name { font-family: "Raleway", sans-serif; font-size: 2rem; font-weight: 700; }
+.banner-name { font-family: "Quicksand", sans-serif; font-size: 2rem; font-weight: 700; }
 .banner-role { font-size: 1.15rem; font-weight: 400; }
-.banner-lab  { font-size: .95rem; font-weight: 300; opacity: .9; }
+.banner-lab  { font-size: .95rem; font-weight: 400; opacity: .9; }
 
 /* Space between the blue banner and the text below it */
 .site-banner { margin-bottom: 2rem; }
@@ -105,3 +105,112 @@ $headings-color: #1f3a4d;
 .collab-name { font-weight: 700; font-size: .95rem; color: $headings-color; }
 .collab-links a { margin: 0 .2rem; font-size: 1.15rem; text-decoration: none; }
 .book-row img { height: 140px; margin: 0 .6rem .6rem 0; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+
+/* ================================================================== */
+/* Projects page: cards with image banners                            */
+/* ================================================================== */
+
+/* Quick navigation */
+.proj-nav p { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 2rem; }
+.proj-nav a {
+  padding: .35rem .9rem; border-radius: 999px; text-decoration: none;
+  background: #e8f1f6; color: $headings-color; font-weight: 600; font-size: .9rem;
+}
+.proj-nav a:hover { background: $primary; color: #fff; }
+
+/* Card */
+.proj {
+  background: #fff; border-radius: 16px; overflow: hidden;
+  box-shadow: 0 4px 18px rgba(31, 58, 77, .10);
+  margin: 0 0 2.5rem; scroll-margin-top: 90px;
+}
+
+/* Banner: image + title on a gradient */
+.proj-banner {
+  position: relative; min-height: 260px;
+  display: flex; align-items: flex-end;
+  background: linear-gradient(135deg, #1f3a4d, #2a6f97);
+}
+.proj-banner > p:has(img) { margin: 0; }
+.proj-banner img.proj-img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+}
+.proj-banner::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(10, 25, 35, 0) 25%, rgba(10, 25, 35, .82) 100%);
+}
+.proj-banner.no-image { min-height: 200px; }
+.proj-banner.no-image::after {
+  background: radial-gradient(circle at 85% 20%, rgba(255,255,255,.14) 0 22%, transparent 23%),
+              radial-gradient(circle at 75% 85%, rgba(255,255,255,.08) 0 18%, transparent 19%);
+}
+.proj-banner-text {
+  position: relative; z-index: 1; color: #fff;
+  padding: 1.4rem 1.8rem; width: 100%;
+}
+.proj-banner-text p { margin: 0; }
+.proj-banner-text h2, .proj-banner-text h3 {
+  color: #fff; margin: .35rem 0 .25rem; border: none; padding: 0;
+  font-weight: 700; line-height: 1.2; text-shadow: 0 1px 6px rgba(0,0,0,.35);
+}
+.proj-banner-text h2 { font-size: clamp(1.4rem, 2.6vw, 2rem); }
+.proj-banner-text h3 { font-size: clamp(1.2rem, 2.1vw, 1.6rem); }
+.proj-banner-text .anchorjs-link { color: #fff !important; }
+.proj-period {
+  display: inline-block; padding: .2rem .7rem; border-radius: 999px;
+  background: rgba(255,255,255,.18); backdrop-filter: blur(4px);
+  font-size: .8rem; font-weight: 600; letter-spacing: .02em;
+}
+.proj-subtitle { display: block; font-size: 1.02rem; opacity: .92; margin-top: .1rem; }
+
+/* Body */
+.proj-body { padding: 1.5rem 1.8rem 1.6rem; }
+.proj-facts {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem 2rem;
+}
+.fact p { margin-bottom: .3rem; }
+.fact ul { margin: 0; padding-left: 1.1rem; }
+.fact li { margin-bottom: .2rem; }
+.fact-label {
+  display: block; font-size: .72rem; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: $primary; margin-bottom: .25rem;
+}
+
+/* Collaborator chips and publication pills */
+.chip, a.chip {
+  display: inline-block; margin: 0 .3rem .4rem 0; padding: .2rem .7rem;
+  border-radius: 999px; background: #f1f4f6; color: $headings-color;
+  font-size: .88rem; text-decoration: none; border: 1px solid #e1e7eb;
+}
+a.chip:hover { background: #e8f1f6; border-color: $primary; }
+.proj-pubs { margin-top: 1.3rem; padding-top: 1.1rem; border-top: 1px solid #edf0f2; }
+.proj-pubs p { margin-bottom: .2rem; }
+a.pill {
+  display: inline-block; margin: 0 .35rem .45rem 0; padding: .3rem .8rem;
+  border-radius: 8px; background: #e8f1f6; color: $headings-color;
+  font-size: .86rem; text-decoration: none;
+}
+a.pill:hover { background: $primary; color: #fff; }
+a.pill.pill-alt { background: #fdf1e3; }
+a.pill.pill-alt:hover { background: #d9822b; color: #fff; }
+
+/* Research line grouping two sub-projects */
+.proj-group {
+  margin: 0 0 2.5rem; padding: 1.4rem 1.4rem .2rem;
+  border-radius: 20px; background: #f3f7fa; scroll-margin-top: 90px;
+}
+.proj-group-label {
+  display: block; font-size: .72rem; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: $primary;
+}
+.proj-group h2.proj-group-title { margin: .2rem 0 1.2rem; border: none; font-size: 1.5rem; }
+.proj-group .proj { margin-bottom: 1.4rem; }
+
+@media (max-width: 768px) {
+  .proj-banner { min-height: 200px; }
+  .proj-facts { grid-template-columns: 1fr; }
+  .proj-banner-text, .proj-body { padding-left: 1.1rem; padding-right: 1.1rem; }
+  .proj-group { padding: 1rem .7rem .1rem; }
+}

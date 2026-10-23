@@ -57,7 +57,7 @@ title: "Collaborators"
       <a href="https://www.linkedin.com/in/julienhambuckers/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
     </div></div>
 
-  <div><div class="collab-initials">SH</div>
+  <div><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=U6XWVcYAAAAJ" alt="Séverine Hex" referrerpolicy="no-referrer">
     <div class="collab-name">Dr. Séverine HEX</div>
     <div class="collab-links">
       <a href="https://scholar.google.com/citations?user=U6XWVcYAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
@@ -70,7 +70,15 @@ title: "Collaborators"
       <a href="https://scholar.google.com/citations?user=GAcL5ewAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     </div></div>
 
-  <div><div class="collab-initials">CL</div>
+  <div><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=n4_PZ0cAAAAJ" alt="Eithne Kavanagh" referrerpolicy="no-referrer">
+    <div class="collab-name">Dr. Eithne KAVANAGH</div>
+    <div class="collab-links">
+      <a href="https://scholar.google.com/citations?user=n4_PZ0cAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.ntu.ac.uk/staff-profiles/social-sciences/eithne-kavanagh" title="Website"><i class="bi bi-globe"></i></a>
+      <a href="https://twitter.com/eithnekavanagh" title="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+    </div></div>
+
+  <div><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=mLi941wAAAAJ" alt="Cristina M. Lorenzi" referrerpolicy="no-referrer">
     <div class="collab-name">Cristina M. LORENZI</div>
     <div class="collab-links">
       <a href="https://scholar.google.com/citations?user=mLi941wAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>

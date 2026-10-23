@@ -1,6 +1,5 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Graduated in fundamental and comparative Ethology"
 ---
 
 ## Research experience
