@@ -4,6 +4,7 @@ $body-color: #2b2b2b;
 $font-family-sans-serif: "Quicksand", "Helvetica Neue", Arial, sans-serif;
 $headings-font-family: "Quicksand", "Helvetica Neue", Arial, sans-serif;
 $headings-color: #1f3a4d;
+$font-size-base: 0.9rem;   // taille du texte courant (1rem = taille par défaut)
 
 /*-- scss:rules --*/
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
@@ -181,8 +182,15 @@ $headings-color: #1f3a4d;
 .proj-body { padding: 1.5rem 1.8rem 1.6rem; }
 .proj-facts {
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2rem 2rem;
+  grid-template-areas: "aff fund" "collab students";
+  gap: 1.2rem 2rem; align-items: start;
 }
+/* fixed places: affiliation top left, funding top right,
+   collaborators bottom left, students bottom right */
+.fact-aff      { grid-area: aff; }
+.fact-fund     { grid-area: fund; }
+.fact-collab   { grid-area: collab; }
+.fact-students { grid-area: students; }
 .fact p { margin-bottom: .3rem; }
 .fact ul { margin: 0; padding-left: 1.1rem; }
 .fact li { margin-bottom: .2rem; }
@@ -223,7 +231,7 @@ a.pill.pill-alt:hover { background: #d9822b; color: #fff; }
 
 @media (max-width: 768px) {
   .proj-banner { min-height: 200px; }
-  .proj-facts { grid-template-columns: 1fr; }
+  .proj-facts { grid-template-columns: 1fr; grid-template-areas: "aff" "fund" "collab" "students"; }
   .proj-banner-text, .proj-body { padding-left: 1.1rem; padding-right: 1.1rem; }
   .proj-group { padding: 1rem .7rem .1rem; }
 }

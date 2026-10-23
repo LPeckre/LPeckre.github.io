@@ -196,8 +196,8 @@ def fmt_funding(f):
 # --------------------------------------------------------------------------
 # Building blocks
 # --------------------------------------------------------------------------
-def fact(label, body):
-    return f"::: {{.fact}}\n[{label}]{{.fact-label}}\n\n{body}\n:::\n"
+def fact(label, body, slot):
+    return f"::: {{.fact .fact-{slot}}}\n[{label}]{{.fact-label}}\n\n{body}\n:::\n"
 
 
 def collaborators(names, links):
@@ -264,16 +264,16 @@ def card(row, title, subtitle, kind, level, pubs, anchor):
     aff = lines(row.get("E"))
     if aff:
         facts.append(fact("Affiliations" if len(aff) > 1 else "Affiliation",
-                          "\n\n".join(md(a) for a in aff)))
+                          "\n\n".join(md(a) for a in aff), "aff"))
     fund = fmt_funding(row.get("F"))
     if fund:
-        facts.append(fact("Funding", md(fund)))
+        facts.append(fact("Funding", md(fund), "fund"))
     names = lines(row.get("G"))
     if names:
-        facts.append(fact("Collaborators", collaborators(names, lines(row.get("H")))))
+        facts.append(fact("Collaborators", collaborators(names, lines(row.get("H"))), "collab"))
     students = lines(row.get("I"))
     if students:
-        facts.append(fact("Students", "\n".join("- " + md(s) for s in students)))
+        facts.append(fact("Students", "\n".join("- " + md(s) for s in students), "students"))
 
     pub_items = lines(row.get("J"))
     out.append("::: {.proj-body}")
